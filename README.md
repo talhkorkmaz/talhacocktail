@@ -2,7 +2,7 @@
 
 Kırık beyaz ve bordo renklerde, tek sayfalık hareketli kokteyl sunumu. Orange Silk signature sahnesi, karakter grupları altında 10 kokteyl, The Çay / Peachy 10 özel sunumları, kilim dokulu Gece Kahvesi ve tasarımcı kapanışı.
 
-## Ürün yönetimi
+## Ürün yönetimi_
 
 `/yonetim` ekranında adları, hikâyeleri, içerik özetlerini, görselleri, lezzet profillerini, renkleri, görünürlüğü ve banner seçimini değiştirin. Yeni kokteyl ekleyin, silin ve sıralayın. Değişiklikler **Seçkiyi kaydet** ile siteye uygulanır. Mevsimlik kaldırmak için **Seçkide göster** anahtarını kapatmak yeterlidir.
 
