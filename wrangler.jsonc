@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "talhacocktail",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-05-22",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "talhacocktail-menu",
+      "database_id": "4ab9a518-cb8a-4e69-950a-3d7b9f4e9b10",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "talhacocktail-images"
+    }
+  ],
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "red-field-9481.cloudflareaccess.com",
+    "ACCESS_AUD": "18d8f2d03e068610d9b7f1b16931dc7cf7f8ef422356f7c06db93510b738b8a9"
+  }
+}
